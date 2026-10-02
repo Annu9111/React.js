@@ -4,6 +4,7 @@
 // import viteLogo from './assets/vite.svg'
 import './App.css'
 import Profile from './components/Login'
+import Login from './components/Login'
 import UserContextProvider from './context/userContextProvider'
 
 function App() {

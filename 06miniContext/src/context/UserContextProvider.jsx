@@ -1,10 +1,12 @@
 import React, { useState } from 'react'
 import UserContext from './userContext'
 
-const UserContextProvider = ({children}) =>{
-    const [user,setUser] = React.useState(null)
+const UserContextProvider = ({ children }) => {
+
+    const [user, setuser] = React.useState(null)
+
     return (
-        <UserContext.Provider value = {{user,useState}}>
+        <UserContext.Provider value={{ user, setuser }}>
             {children}
         </UserContext.Provider>
     )
