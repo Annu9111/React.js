@@ -1,7 +1,8 @@
 // import React from 'react'
 
+
 function Random() {
-  let number = Math.random()*10 ; 
+  let number = Math.round(Math.random()*10) ; 
   return (
     <div>
       <h1>Random number is : {number}</h1>

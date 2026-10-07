@@ -7,7 +7,11 @@ function Hello(){
     }
     return(
         <>
-        <h3>hello {myname} {fullName()} this is hello component from Hello.jsx</h3>
+        <h3 style={{'background-color' : "pink"}}>hello {myname} {fullName()} this is hello component from Hello.jsx</h3>
+        <Random></Random>
+        <Random></Random>
+        <Random></Random>
+        <Random></Random>
         <Random></Random>
         </>
     )
