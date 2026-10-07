@@ -1,9 +1,10 @@
-
+import Card from "./Card"
 function App() {
 
   return (
     <>
-      
+      <h1>Boostrap in react</h1>
+      <Card/>
     </>
   )
 }
